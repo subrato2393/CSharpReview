@@ -29,7 +29,7 @@ namespace Reflection
             foreach (var method in methods)
             {
                 ParameterInfo[] parameters = method.GetParameters();
-                foreach (var parameter in parameters)
+                 foreach (var parameter in parameters)
                 {
                     Console.WriteLine("Parameters "+parameter.Name+method.Name);
                 }
