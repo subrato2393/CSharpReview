@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionApp", "ReflectionApp\ReflectionApp.csproj", "{847B8DB1-75CC-4712-840B-4226FF20E884}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryApp", "DictionaryApp\DictionaryApp.csproj", "{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{847B8DB1-75CC-4712-840B-4226FF20E884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{847B8DB1-75CC-4712-840B-4226FF20E884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{847B8DB1-75CC-4712-840B-4226FF20E884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
