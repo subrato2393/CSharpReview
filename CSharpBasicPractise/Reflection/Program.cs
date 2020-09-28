@@ -29,18 +29,21 @@ namespace Reflection
             foreach (var method in methods)
             {
                 ParameterInfo[] parameters = method.GetParameters();
-                 foreach (var parameter in parameters)
+                foreach (var parameter in parameters)
                 {
                     Console.WriteLine("Parameters "+parameter.Name+method.Name);
                 }
                 Console.WriteLine(method.Name + " " + method.ReturnType + " " + method.ReturnParameter);
             }
 
-            ConstructorInfo[] constructors = customerType.GetConstructors();
-            foreach (var constructor in constructors)
-            {
-                Console.WriteLine(constructor.Name + " " + constructor.ToString());
-            }
+            ConstructorInfo constructors = customerType.GetConstructor(new Type[] { });
+           var cons= constructors.Invoke(new object[] { });
+            Console.WriteLine("jjjjjjjjjjjjjjjjjjjjjj"+cons);
+            //foreach (var constructor in constructors)
+            //{
+            //    Console.WriteLine(constructor.Name + " " + constructor.ToString());
+            //}
+
             Console.WriteLine("Get fields ");
            FieldInfo[] fields= customerType.GetFields();
             foreach (var field in fields)
