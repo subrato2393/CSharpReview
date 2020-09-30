@@ -5,9 +5,15 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{DD914193-6733-41EF-BECB-5EF272B73333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionApp", "ReflectionApp\ReflectionApp.csproj", "{847B8DB1-75CC-4712-840B-4226FF20E884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionApp", "ReflectionApp\ReflectionApp.csproj", "{847B8DB1-75CC-4712-840B-4226FF20E884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryApp", "DictionaryApp\DictionaryApp.csproj", "{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryApp", "DictionaryApp\DictionaryApp.csproj", "{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListApp", "ListApp\ListApp.csproj", "{E61FB133-05B6-48F0-991D-EADAC43F4215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackApp", "StackApp\StackApp.csproj", "{9218CF55-3874-432F-8748-8D67ED9429BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateApp", "DelegateApp\DelegateApp.csproj", "{2E38CA11-66B2-4AFE-8546-AFA7C0AF2006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C365BB6-4CAF-4870-ADE5-74637A3E20CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61FB133-05B6-48F0-991D-EADAC43F4215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61FB133-05B6-48F0-991D-EADAC43F4215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61FB133-05B6-48F0-991D-EADAC43F4215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61FB133-05B6-48F0-991D-EADAC43F4215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9218CF55-3874-432F-8748-8D67ED9429BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9218CF55-3874-432F-8748-8D67ED9429BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9218CF55-3874-432F-8748-8D67ED9429BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9218CF55-3874-432F-8748-8D67ED9429BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E38CA11-66B2-4AFE-8546-AFA7C0AF2006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E38CA11-66B2-4AFE-8546-AFA7C0AF2006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E38CA11-66B2-4AFE-8546-AFA7C0AF2006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E38CA11-66B2-4AFE-8546-AFA7C0AF2006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
