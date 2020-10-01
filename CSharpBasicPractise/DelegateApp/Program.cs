@@ -6,8 +6,9 @@ namespace DelegateApp
     {
         static void Main(string[] args)
         {
-            var design = new PuzzalMaker.Design(PuzzalDesign);
-            design(4, 9);
+            // var design = new PuzzalMaker.Design(PuzzalDesign);
+            Action<int, int> action = new Action<int, int>(PuzzalDesign);
+            action(5, 6);
             var design2 = new PuzzalMaker.Design(new StrangeDesigner().StrangeDesign);
             design2(6, 90);
             Console.ReadLine();
