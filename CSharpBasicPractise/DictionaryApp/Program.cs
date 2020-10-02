@@ -132,7 +132,6 @@ namespace DictionaryApp
             dictionaries.Add(bCustomer.Id, bCustomer);
             dictionaries.Add(cCustomer.Id, cCustomer);
             Console.WriteLine("All Dictionary value");
-
             foreach (var item in dictionaries)
             {
                 Console.WriteLine(item.Key);

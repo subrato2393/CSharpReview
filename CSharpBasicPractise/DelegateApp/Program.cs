@@ -12,7 +12,7 @@ namespace DelegateApp
             var design2 = new PuzzalMaker.Design(new StrangeDesigner().StrangeDesign);
             design2(6, 90);
             Console.ReadLine();
-        }
+         }
         static void PuzzalDesign(int x,int y)
         {
             Console.WriteLine($"Puzzal design static Method: {x}{y}");

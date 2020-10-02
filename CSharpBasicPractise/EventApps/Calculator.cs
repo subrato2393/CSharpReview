@@ -8,6 +8,5 @@ namespace EventApps
     {
         public delegate void ButtonClick();
         public event ButtonClick buttonClick;
-
     }
 }
