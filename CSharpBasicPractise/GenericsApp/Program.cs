@@ -9,8 +9,8 @@ namespace GenericsApp
             Calculator<int> aCalculator = new Calculator<int>(34,89);
 
             var addition = aCalculator.Add<int>(10, 21);
-            aCalculator.Multiply<double>(3.99, 9.6);   
-            
+             aCalculator.Multiply<double>(3.99, 9.6);   
+            //aCalculator.Multiply<int>(20, 10);
             Console.WriteLine("addition "+addition);
           
             
