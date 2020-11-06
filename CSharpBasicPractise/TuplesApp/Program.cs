@@ -17,7 +17,7 @@ namespace TuplesApp
         static void Main(string[] args)
         {
             TuplesDemo tuplesDemo = new TuplesDemo();
-            var  t = tuplesDemo.Math(10, 4);
+            var t = tuplesDemo.Math(10, 4);
             Console.WriteLine($"Addition {t.add}  Multiplication {t.mul} Division {t.div}");
             Console.ReadLine();
         }  
