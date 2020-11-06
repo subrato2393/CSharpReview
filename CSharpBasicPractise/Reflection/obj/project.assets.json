@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\subroto\\.nuget\\packages\\": {}
+    "C:\\Users\\Subrato\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Dev Skill Full Stack ASP.NET Core MVC Trainning\\Class 3\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
+      "projectUniqueName": "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
       "projectName": "Reflection",
-      "projectPath": "F:\\Dev Skill Full Stack ASP.NET Core MVC Trainning\\Class 3\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
-      "packagesPath": "C:\\Users\\subroto\\.nuget\\packages\\",
-      "outputPath": "F:\\Dev Skill Full Stack ASP.NET Core MVC Trainning\\Class 3\\CSharpReview\\CSharpBasicPractise\\Reflection\\obj\\",
+      "projectPath": "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
+      "packagesPath": "C:\\Users\\Subrato\\.nuget\\packages\\",
+      "outputPath": "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\subroto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Subrato\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
