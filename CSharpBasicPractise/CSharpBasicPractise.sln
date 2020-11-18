@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandlingApp", "FileHand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemReadAndWrite", "FileSystemApps\FileSystemReadAndWrite.csproj", "{8BD2AE3E-6999-49E9-8AE1-00E9931B44DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWriteAndRead", "FileSystemWriteAndRead\FileSystemWriteAndRead.csproj", "{D20E21A6-86B2-4E9B-B1AB-3584032F3AC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{8BD2AE3E-6999-49E9-8AE1-00E9931B44DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD2AE3E-6999-49E9-8AE1-00E9931B44DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD2AE3E-6999-49E9-8AE1-00E9931B44DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20E21A6-86B2-4E9B-B1AB-3584032F3AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20E21A6-86B2-4E9B-B1AB-3584032F3AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20E21A6-86B2-4E9B-B1AB-3584032F3AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20E21A6-86B2-4E9B-B1AB-3584032F3AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
