@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleBasicApp", "TupleBasic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuplesLatestDotNetApp", "TuplesLatestDotNetApp\TuplesLatestDotNetApp.csproj", "{11680DC1-7224-4E3A-A9CC-22B4DFC04350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceApp", "InterfaceApp\InterfaceApp.csproj", "{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceApp", "InterfaceApp\InterfaceApp.csproj", "{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandlingApp", "FileHandlingApp\FileHandlingApp.csproj", "{CE386A62-7673-4758-8964-DD79C9D96835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE386A62-7673-4758-8964-DD79C9D96835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE386A62-7673-4758-8964-DD79C9D96835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE386A62-7673-4758-8964-DD79C9D96835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE386A62-7673-4758-8964-DD79C9D96835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
