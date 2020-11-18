@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsApp", "GenericsApp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericConstrainsApp", "GenericConstrainsApp\GenericConstrainsApp.csproj", "{ED49204A-47E3-4B7E-BDFB-6F43CE534F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesApp", "TuplesApp\TuplesApp.csproj", "{D6D62488-76A8-4729-B13B-6B7FDE3628BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuplesApp", "TuplesApp\TuplesApp.csproj", "{D6D62488-76A8-4729-B13B-6B7FDE3628BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleBasicApp", "TupleBasicApp\TupleBasicApp.csproj", "{E6AB1609-C1EA-485B-B393-6CBA2E5F398F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleBasicApp", "TupleBasicApp\TupleBasicApp.csproj", "{E6AB1609-C1EA-485B-B393-6CBA2E5F398F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesLatestDotNetApp", "TuplesLatestDotNetApp\TuplesLatestDotNetApp.csproj", "{11680DC1-7224-4E3A-A9CC-22B4DFC04350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuplesLatestDotNetApp", "TuplesLatestDotNetApp\TuplesLatestDotNetApp.csproj", "{11680DC1-7224-4E3A-A9CC-22B4DFC04350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceApp", "InterfaceApp\InterfaceApp.csproj", "{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{11680DC1-7224-4E3A-A9CC-22B4DFC04350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11680DC1-7224-4E3A-A9CC-22B4DFC04350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11680DC1-7224-4E3A-A9CC-22B4DFC04350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A4BBF7-8A22-4309-BEAB-FC02FFACA946}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
