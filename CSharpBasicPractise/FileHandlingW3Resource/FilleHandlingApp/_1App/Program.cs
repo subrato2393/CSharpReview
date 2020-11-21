@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace _1App
 {
@@ -6,7 +7,10 @@ namespace _1App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string filePath = @"E:\DST\subroto.txt";
+            File.Create(filePath);
+            Console.WriteLine("File created successfully");
+            Console.ReadLine();
         }
     }
 }
