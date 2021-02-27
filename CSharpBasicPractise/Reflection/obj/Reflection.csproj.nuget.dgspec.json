@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj": {}
+    "C:\\Users\\subroto\\Desktop\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj": {}
   },
   "projects": {
-    "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj": {
+    "C:\\Users\\subroto\\Desktop\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
+        "projectUniqueName": "C:\\Users\\subroto\\Desktop\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
         "projectName": "Reflection",
-        "projectPath": "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
-        "packagesPath": "C:\\Users\\Subrato\\.nuget\\packages\\",
-        "outputPath": "E:\\DST\\CSharpReview\\CSharpBasicPractise\\Reflection\\obj\\",
+        "projectPath": "C:\\Users\\subroto\\Desktop\\CSharpReview\\CSharpBasicPractise\\Reflection\\Reflection.csproj",
+        "packagesPath": "C:\\Users\\subroto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\subroto\\Desktop\\CSharpReview\\CSharpBasicPractise\\Reflection\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Subrato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\subroto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
