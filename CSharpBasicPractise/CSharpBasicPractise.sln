@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemReadAndWrite", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemWriteAndRead", "FileSystemWriteAndRead\FileSystemWriteAndRead.csproj", "{D20E21A6-86B2-4E9B-B1AB-3584032F3AC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskApp", "TaskApp\TaskApp.csproj", "{A096E116-F985-402F-9C83-CD371DE970A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskApp", "TaskApp\TaskApp.csproj", "{A096E116-F985-402F-9C83-CD371DE970A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAsyncApp", "TaskAsyncApp\TaskAsyncApp.csproj", "{F69DBC68-024D-491E-8500-0503C9CBE725}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{A096E116-F985-402F-9C83-CD371DE970A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A096E116-F985-402F-9C83-CD371DE970A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A096E116-F985-402F-9C83-CD371DE970A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69DBC68-024D-491E-8500-0503C9CBE725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69DBC68-024D-491E-8500-0503C9CBE725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69DBC68-024D-491E-8500-0503C9CBE725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69DBC68-024D-491E-8500-0503C9CBE725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
