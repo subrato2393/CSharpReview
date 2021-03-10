@@ -6,5 +6,6 @@ namespace TaskAsyncApp
 {
     public class Egg
     {
+
     }
 }
